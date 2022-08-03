@@ -1,0 +1,35 @@
+{
+  "name": "blog-app-api",
+  "version": "1.0.0",
+  "description": "node blog system api with node express mysql sequelize",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Livingston-k/Blog-app-api.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "sequelize",
+    "mysql",
+    "blog",
+    "system",
+    "api"
+  ],
+  "author": "Kaddu Livingstone",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Livingston-k/Blog-app-api/issues"
+  },
+  "homepage": "https://github.com/Livingston-k/Blog-app-api#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "sequelize": "^6.21.3"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^6.4.1"
+  }
+}
