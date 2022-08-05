@@ -24,6 +24,15 @@ $ yarn install
 $ yarn start
 ```
 
+## ENVIRONMENT VARIABLES
+
+* In the project main directory ceate a file name **.env** and put the following
+
+```shell
+JWT_SECRETE = "put any string here to act as your jwt secret"
+```
+
+
 ## API DOCUMENTATION
 
 [View api documentation](https://documenter.getpostman.com/view/15074319/VUjLJRzQ)
