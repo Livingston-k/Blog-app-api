@@ -45,7 +45,11 @@ const getPosts = (req, res) => {
 const showPost = (req, res) => {
     const id = req.params.id
     Post.findByPk(id).then((data) => {
-        res.status(200).send(data)
+        if (data) {
+            return res.status(200).send(data)
+        }
+        return res.status(200).send({ 'msg': `post with id ${id} not found` })
+
     }).catch((err) => {
         res.status(500).send({ 'msg': 'Error Retrieving post', 'error': err })
     })
