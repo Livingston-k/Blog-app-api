@@ -32,7 +32,6 @@ $ yarn start
 JWT_SECRETE = "put any string here to act as your jwt secret"
 ```
 
-
 ## API DOCUMENTATION
 
 [View api documentation](https://documenter.getpostman.com/view/15074319/VUjLJRzQ)
