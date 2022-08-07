@@ -15,8 +15,12 @@ $ yarn install
 ## DATABASE SETUP
 
 * Note that is project is using mysql database.
-  * create a database forexample blog_system
-  * In the project directory  go to config/config.json and edit the database configurations to match  your setup
+  * [ ] create a database forexample blog_system
+  * [ ] In the project directory  go to config/config.json and edit the database configurations to match  your setup
+  * [ ] To migrate the database tables run :
+    ```
+    npx sequelize-cli db:migrate
+    ```
 
 ## START THE SERVER
 
